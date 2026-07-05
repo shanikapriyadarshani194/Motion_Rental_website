@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotionRentals - Our Services</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="style3.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+        body { 
+            color: #fff; 
+            background: url('biker-407123_1920.jpg') no-repeat center center/cover;
+            position: relative;
+        }
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+        }
+        
+        
+        .page-title {
+            text-align: center;
+            padding: 180px 20px 60px;
+            color: #fff;
+        }
+        .page-title h1 { font-size: 4em; font-weight: 700; text-transform: uppercase; }
+        .page-title p { font-size: 1.5em; font-weight: 300; max-width: 600px; margin: 0 auto; }
+
+        .services-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 60px 20px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        .service-item {
+            width: 300px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .service-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+        .service-item h2 { 
+            font-size: 1.6em; 
+            margin-bottom: 10px; 
+            color: #222;
+        }
+        .service-item p { 
+            color: #444; 
+            font-size: 1em; 
+            font-weight: 300;
+        }
+
+        .back-button {
+            display: block;
+            margin: 40px auto;
+            background-color: #ff6b6b;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            padding: 15px 40px;
+            width: 220px;
+            border-radius: 50px;
+            font-size: 1.2em;
+            font-weight: 600;
+            transition: background-color 0.3s ease-in-out, transform 0.2s;
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        .back-button:hover {
+            background-color: #ff4040;
+            transform: scale(1.1);
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="page-title">
+        <h1>Our Services</h1>
+        <p>Discover the range of services we offer to make your rental experience seamless.</p>
+    </div>
+
+    <div class="services-section">
+        <div class="service-item">
+            <h2>24/7 Customer Support</h2>
+            <p>Our dedicated support team is available 24/7 to assist you with your rental needs.</p>
+        </div>
+        <div class="service-item">
+            <h2>Flexible Rental Options</h2>
+            <p>Choose from daily, weekly, or monthly rental plans to suit your travel needs.</p>
+        </div>
+        <div class="service-item">
+            <h2>Delivery and Pickup</h2>
+            <p>We offer convenient delivery and pickup services right at your doorstep.</p>
+        </div>
+        <div class="service-item">
+            <h2>Comprehensive Insurance</h2>
+            <p>All rentals come with comprehensive insurance for peace of mind during your travels.</p>
+        </div>
+        <div class="service-item">
+            <h2>Wide Selection of Vehicles</h2>
+            <p>Choose from a diverse fleet of vehicles, including cars, SUVs, and trucks.</p>
+        </div>
+    </div>
+
+    <a href="home.html" class="back-button">Back to Home</a>
+
+    <footer>
+        <p>&copy; 2025 MotionRentals. All rights reserved.</p>
+    </footer>
+</body>
+<script src="servicesscripts.js"></script>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars - Welcome to MotionRentals</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url('porsche-4795517_1920.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: rgba(196, 172, 176, 0.9);
+            padding: 20px 0;
+            text-align: center;
+            color: white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 3em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        .Cars-collection {
+            padding: 50px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: rgba(75, 69, 69, 0.9);
+            margin: 20px auto;
+            width: 90%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .Cars-item {
+            background-color: rgba(154, 144, 150, 0.9);;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            margin: 15px;
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.2s;
+        }
+
+        .Cars-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .Cars-item img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .Cars-item h3 {
+            font-size: 1.5em;
+            color: #202020;
+            margin-bottom: 10px;
+        }
+
+        .Cars-item p {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .Cars-item .price {
+            font-size: 1.4em;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .order-button {
+            margin-top: 10px;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #cc4047;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out, transform 0.2s;
+        }
+
+        .order-button:hover {
+            background-color: #ff4c6c;
+            transform: scale(1.1);
+        }
+
+        .back-button {
+            display: block;
+            margin: 20px auto;
+            background-color: #ff758c;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            padding: 15px 30px;
+            width: 200px;
+            border-radius: 5px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease-in-out, transform 0.2s;
+        }
+
+        .back-button:hover {
+            background-color: #ff4c6c;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cars- Welcome to MotionRentals</h1>
+        <p>Drive in comfort and style—rent your perfect car today!" 🚗✨</p>
+    </header>
+    <section class="Cars-collection">
+        <div class="Cars-item">
+            <img src="Toyota-Axio-1-e1686125996936.jpg" alt="Toyota Axio">
+            <h3>Toyota Axio</h3>
+            <p class="price">price for 1 day Rs.5500</p>
+            <a href="Carorders.html" class="order-button">Rent Now</a>
+        </div>
+        <div class="Cars-item">
+            <img src="12892_m.jpg" alt="Honda Vezel">
+            <h3>Honda Vezel</h3>
+            <p class="price">price for 1 day Rs.6500</p>
+            <a href="Carorders.html" class="order-button">Rent Now</a>
+        </div>
+        <div class="Cars-item">
+            <img src="shutterstock_2204903329-e1685523842171.jpg" alt="Suzuki Wagon R">
+            <h3>Suzuki Wagon R</h3>
+            <p class="price">price for 1 day Rs.4500</p>
+            <a href="Carorders.html" class="order-button">Rent Now</a>
+        </div>
+        <div class="Cars-item">
+            <img src="nissan-x-trail-review-f34.jpg" alt="Nissan X-Trail">
+            <h3>Nissan X-Trail</h3>
+            <p class="price">price for 1 day Rs.7500</p>
+            <a href="Carorders.html" class="order-button">Rent Now</a>
+        </div>
+        <div class="Cars-item">
+            <img src="2016_Toyota_Prius_(ZVW50L)_Hybrid_liftback_(2016-04-02)_01.jpg" alt="Toyota Prius">
+            <h3>Toyota Prius</h3>
+            <p class="price">price for 1 day Rs.9500</p>
+            <a href="Carorders.html" class="order-button">Rent Now</a>
+        </div>
+    </section>
+    <a href="home.html" class="back-button">Back to Home</a>
+    <footer>
+        <p>&copy; 2025 MotionRentals. All rights reserved.</p>
+         </footer>
+         <script src="carscripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotorBikes - Welcome to MotionRentals</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-image: url('moto-bikes-6867911_1920.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        header {
+            background: rgba(178, 156, 160, 0.9);
+            padding: 20px;
+            text-align: center;
+            color: white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 30px auto;
+            width: 90%;
+            gap: 20px;
+        }
+
+        .product {
+            background: rgba(130, 112, 112, 0.9);
+            color: #333;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 20px;
+            width: 250px;
+            transition: transform 0.2s;
+        }
+
+        .product:hover {
+            transform: translateY(-10px);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .product h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .product p {
+            font-size: 1.2em;
+            color: #0c0c0c;
+        }
+
+        .order-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color:  #cc4047;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: background-color 0.3s ease-in-out, transform 0.2s;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .order-button:hover {
+            background-color: #ff4c6c;
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(51, 51, 51, 0.8);
+            color: white;
+            margin-top: 20px;
+        }
+
+        .back-button {
+            display: block;
+            margin: 20px auto;
+            background-color: #ff758c;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            padding: 15px 30px;
+            width: 200px;
+            border-radius: 5px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease-in-out, transform 0.2s;
+        }
+
+        .back-button:hover {
+            background-color: #ff4c6c;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MotorBikes - Welcome to MotionRentals </h1>
+        <p>"Ride freely with our top-quality rental bikes – affordable, reliable, and ready for adventure!" 🚴‍♂️✨</p>
+    </header>
+    <section class="products">
+        <div class="product">
+            <img src="honda-dio-71322314681.jpg" alt="MotorBikes 1">
+            <h3>Honda Dio 2017</h3>
+            <p>For a one day Rs.2000</p>
+            <a href="Bikeorder.html?item=Matte%20Liquid%20Foundation&price=1000" class="order-button">Rent Now</a>
+        </div>
+        <div class="product">
+            <img src="ct-100-featured.jpg" alt="MotorBikes 2">
+            <h3>Bajaj CT 100</h3>
+            <p>For a one day Rs Rs.1500</p>
+            <a href="Bikeorder.html?item=Full%20Coverage%20Foundation&price=1200" class="order-button">Rent Now</a>
+        </div>
+        <div class="product">
+            <img src="AD000271-2.jpg" alt="MotorBikes 3">
+            <h3>Bajaj Pulsar 150</h3>
+            <p>For a one day Rs Rs.2500</p>
+            <a href="Bikeorder.html?item=Hydrating%20Glow%20Foundation&price=2500" class="order-button">Rent Now</a>
+        </div>
+        <div class="product">
+            <img src="images.jpg" alt="MotorBikes 4">
+            <h3>Yamaha FZ-S Version</h3>
+            <p>For a one day Rs Rs.3000</p>
+            <a href="Bikeorder.html?item=Oil-Free%20Foundation&price=1850" class="order-button">Rent Now</a>
+        </div>
+       
+        
+    </section>
+    <footer>
+        <p>&copy; 2025 MotionRentals. All rights reserved</p>
+        <a href="home.html" class="back-button">Back to Home</a>
+    </footer>
+    <script src="bikesscripts.js"></script>
+</body>
+</html>

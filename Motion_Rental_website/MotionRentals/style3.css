@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotionRentals - Our Services</title>
+    <link rel="stylesheet" href="style 2.css">
+    <style>
+        /* Reset and Body */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Arial', sans-serif; color: #333; background-color: #f7f7f7; }
+
+        /* Navbar */
+        nav { background: #333; padding: 15px 20px; text-align: center; }
+        nav a { color: #fff; margin: 0 15px; text-decoration: none; font-size: 18px; transition: color 0.3s; }
+        nav a:hover { color: #ff6b00; }
+
+        /* Page Title */
+        .page-title {
+            text-align: center;
+            padding: 80px 20px;
+            background: url('https://your-background-image.jpg') no-repeat center center/cover;
+            color: #fff;
+            position: relative;
+        }
+        .page-title h1 { font-size: 3em; }
+        .page-title p { font-size: 1.2em; color: #eee; }
+        .page-title::after {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+        .page-title h1, .page-title p {
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Services Section */
+        .services-section {
+            padding: 50px 20px;
+            text-align: center;
+            background: #fff;
+        }
+        .service-item {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #f0f0f0, #d9d9d9);
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        .service-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+        .service-item h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #333;
+            transition: color 0.3s;
+        }
+        .service-item:hover h2 {
+            color: #ff6b00;
+        }
+        .service-item p { color: #666; font-size: 1em; }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Vehicles</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Page Title -->
+    <div class="page-title">
+        <h1>Our Services</h1>
+        <p>Discover the range of services we offer to make your rental experience seamless.</p>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services-section">
+        <div class="service-item">
+            <h2>24/7 Customer Support</h2>
+            <p>Our dedicated support team is available 24/7 to assist you with your rental needs.</p>
+        </div>
+        <div class="service-item">
+            <h2>Flexible Rental Options</h2>
+            <p>Choose from daily, weekly, or monthly rental plans to suit your travel needs.</p>
+        </div>
+        <div class="service-item">
+            <h2>Delivery and Pickup</h2>
+            <p>We offer convenient delivery and pickup services right at your doorstep.</p>
+        </div>
+        <div class="service-item">
+            <h2>Comprehensive Insurance</h2>
+            <p>All rentals come with comprehensive insurance for peace of mind during your travels.</p>
+        </div>
+        <div class="service-item">
+            <h2>Wide Selection of Vehicles</h2>
+            <p>Choose from a diverse fleet of vehicles, including cars, SUVs, and trucks.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 MotionRentals. All rights reserved.</p>
+    </footer>
+</body>
+</html>
